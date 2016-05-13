@@ -1,0 +1,361 @@
+/****** GLOBAL ************/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+/***************************
+****************************
+******* Navbar **$$$********
+****************************
+
+classic navbar that collapses
+
+****************************/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #121212;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #50E3C2 !important;
+    font-weight: 600;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar img {
+  width: 20%;
+  margin-top : -15px;
+
+}
+
+/***************************
+****************************
+******* Jumbotron **********
+****************************
+
+a class for the jumbotron, a section  to
+describe the main header on the page
+
+****************************/
+
+.jumbotron {
+	background-color: #121212;
+	color: #ecf0f1;
+	padding: 220px 25px;
+}
+
+.jumbotron h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 7em;
+	letter-spacing: 7px;
+	color: #50E3C2;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+/******** FADE IN ************/
+.jumbotron p {
+    margin-top: 25px;
+    font-size: 21px;
+    line-height: 2em;
+    text-align: center;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/***************************
+****************************
+******* Containers *********
+****************************
+
+The main containers on the page
+where company information goes
+
+****************************/
+
+.container-fluid {
+	padding: 80px 50px;
+}
+
+.heptabout {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+/* CONTAINERS COLOR
+*
+* Background color for the Our Values
+section set to a light gray to create
+a break from the about company section */
+
+.bg-grey {
+	background-color: #f6f6f6;
+}
+
+.bg-purple {
+	background-color: #DF69E8;
+}
+
+.bg-blue {
+	background-color: #2c3e50;
+}
+
+/* CONTAINERS TEXT */
+
+/* First ABOUT section */
+
+.about h2 {
+	color: #26967D;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+
+.about h4 {
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+.about p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.about button {
+	margin-top: 30px;
+	background-color: #50E3C2;
+	color: #fff;
+}
+
+/* Second ABOUT section */
+
+.about2 h2 {
+	color: #26967D;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+
+.about2 h4 {
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+.about2 p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.about2 .logo {
+	color: #50E3C2;
+	font-size: 320px;
+    padding-top: 30px;
+}
+
+#doit {
+	color: #DF69E8;
+	font-weight: 600;
+}
+
+/* SERVICES section */
+
+#services h2 {
+	color: #26967D;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+
+#services h4 {
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+#services p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/***************************
+****************************
+******* Icons **************
+****************************
+
+Color and style for icons go
+here. 2 classes: regular and
+small;
+
+****************************/
+
+
+.logo {
+	color: #2c3e50;
+    font-size: 170px;
+    padding-top: 70px;
+}
+
+.logo-small {
+	color: #2c3e50;
+	font-size: 50px;
+}
+
+
+#seven {
+	font-family: 'Righteous', cursive;
+	font-size: 40px;
+	color: #50E3C2;
+}
+
+/***************************
+****************************
+******* Images *************
+****************************
+
+All the style for the images
+and the thumbnail
+
+****************************/
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/***************************
+****************************
+***** Slide animation ******
+****************************
+
+CSS slide animation
+
+****************************/
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+/***************************
+****************************
+******* MediaQueries *******
+****************************
+
+All your mediaqueries here
+
+****************************/
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .jumbotron h1 {
+    	font-size: 4.5em;
+    	letter-spacing: 5px;
+		text-align: center;
+    }
+
+    .about p {
+    	font-size: 17px;
+    }
+
+    .about2 .logo {
+    	font-size: 200px;
+    	text-align: center;
+    	padding-bottom: 20px;
+    }
+}
