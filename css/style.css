@@ -42,9 +42,8 @@ classic navbar that collapses
 }
 
 .navbar img {
-  width: 20%;
-  margin-top : -15px;
-
+    margin-top: -15px;
+    height: 2.5em;
 }
 
 /***************************
@@ -251,9 +250,8 @@ small;
     padding-top: 70px;
 }
 
-.logo-small {
-	color: #2c3e50;
-	font-size: 50px;
+.logo-small img {
+    height: 10em;
 }
 
 
