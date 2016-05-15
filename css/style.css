@@ -27,13 +27,13 @@ classic navbar that collapses
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: #ddd !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #50E3C2 !important;
+    color: #fff !important;
     font-weight: 600;
-    background-color: #fff !important;
+    background-color: #D8F3C9 !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -57,16 +57,18 @@ describe the main header on the page
 ****************************/
 
 .jumbotron {
-	background-color: #121212;
-	color: #ecf0f1;
+	background-image: url(https://img0.etsystatic.com/015/0/7885092/il_340x270.433304348_pbj8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 	padding: 220px 25px;
 }
 
 .jumbotron h1 {
-	font-family: 'Righteous', cursive;
+	font-family: 'Plaster', cursive;
 	font-size: 7em;
 	letter-spacing: 7px;
-	color: #50E3C2;
+	color: #555;
 	padding-bottom: 35px;
 	text-align: center;
 }
@@ -75,6 +77,7 @@ describe the main header on the page
 .jumbotron p {
     margin-top: 25px;
     font-size: 21px;
+    color: #333;
     line-height: 2em;
     text-align: center;
     animation: fadein 3s;
@@ -126,6 +129,7 @@ where company information goes
 ****************************/
 
 .container-fluid {
+    background-color: #FAF0E6;
 	padding: 80px 50px;
 }
 
@@ -177,13 +181,28 @@ a break from the about company section */
 
 .about button {
 	margin-top: 30px;
-	background-color: #50E3C2;
+	background-color: #D8F3C9;
 	color: #fff;
+}
+
+.about ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 1em 0;
+}
+
+.about ul img {
+    width: 100%;
 }
 
 /* Second ABOUT section */
 
 .about2 h2 {
+    text-align: center;
 	color: #26967D;
 	padding-bottom: 20px;
 	letter-spacing: 5px;
@@ -196,23 +215,20 @@ a break from the about company section */
 	line-height: 40px;
 }
 
-.about2 p {
-	font-size: 18px;
-	letter-spacing: 1px;
-}
-
-.about2 .logo {
-	color: #50E3C2;
-	font-size: 320px;
-    padding-top: 30px;
+.about2 img {
+    width: 100%;
 }
 
 #doit {
-	color: #DF69E8;
+	color: #F9B391;
 	font-weight: 600;
 }
 
 /* SERVICES section */
+
+#services, #services .row {
+    width: 100%;
+}
 
 #services h2 {
 	color: #26967D;
