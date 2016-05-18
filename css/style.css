@@ -197,6 +197,7 @@ a break from the about company section */
 
 .about ul img {
     width: 100%;
+    max-width: 180px;
 }
 
 /* Second ABOUT section */
@@ -217,6 +218,7 @@ a break from the about company section */
 
 .about2 img {
     width: 100%;
+    max-width: 400px;
 }
 
 #doit {
